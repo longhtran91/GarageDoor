@@ -1,0 +1,87 @@
+{
+"config":
+{
+	"use_auth":true,
+	"use_alerts":true,
+	"use_openhab":false
+},
+"alerts":
+{
+	"time_to_wait" : 300,
+	"alert_type" : "twilio",
+        "smtp":
+		{
+		"smtphost" : "<SMTP HOST>",
+		"smtpport" : 587,
+		"smtp_tls" : "True",
+		"username" : "<USERNAME EMAIL ADDRESS>",
+		"password" : "<PASSWORD>",
+		"to_email" : "<TO EMAIL ADDRESS>"
+		},
+	"pushbullet":
+		{
+		"access_token":"<ACCES TOKEN>"
+		},
+	"pushover":
+		{
+		"user_key":"<PUSHOVER USER KEY>",
+		"api_key":"<PUSHOVER API TOKEN/KEY>"
+		},
+	"twilio":
+		{
+		"account_sid": "ACc9bd9b33c5ee79eef5ebffda5bb60f73",
+		"auth_token": "7192d305be493caed839c0f031ba0cb7"
+		}
+},
+"openhab" :
+{
+	"server" : "",
+	"port" : ""
+},
+"site" :
+	{
+	"port":8081,
+	"username":"user",
+	"password":"12345"
+	},
+"doors" : 
+	{
+		"main" :
+			{
+			"name" : "Main",
+			"relay_pin" : 23,
+			"state_pin" : 17,
+			"state_pin_closed_value" : 0,
+			"approx_time_to_close" : 12,
+			"approx_time_to_open" : 11,
+			"openhab_name" : "g_door_left"
+			}
+	},
+"users" : 
+	{
+		"user1" : 
+			{
+			"uname" : "Long Tran",
+			"phone_number" : "+18326029550",
+			"device_id" : "cde1b1d83113779b"
+			},
+		"user2" :
+			{
+			"uname" : "Annie Tran",
+			"phone_number" : "+18322829790",
+			"device_id" : "ce24066758948905"
+			},
+		"user3" :
+			{
+			"uname" : "Joe Huynh",
+			"phone_number" : "+18322299762",
+			"device_id" : "ecfc9dddbf04cb8c"
+			},
+		"user4" :
+			{
+			"uname" : "Joe Huynh",
+			"phone_number" : "+18328152966",
+			"device_id" : "7bff3cdd318d8e29"
+			}
+	}
+}
