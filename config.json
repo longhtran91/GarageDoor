@@ -29,8 +29,8 @@
 		},
 	"twilio":
 		{
-		"account_sid": "ACc9bd9b33c5ee79eef5ebffda5bb60f73",
-		"auth_token": "7192d305be493caed839c0f031ba0cb7"
+		"account_sid": "",
+		"auth_token": ""
 		}
 },
 "openhab" :
