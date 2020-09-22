@@ -2,7 +2,13 @@
 Credit to https://github.com/andrewshilliday/garage-door-controller
 
 This project is to:
-  build a cordova html web-app for Android with device authentication
-  encrypted ajax call using JWT
-  https connection using letsencrypt
-  SMS function using Twilio
+* Exploit: Re-implementation of lightspeed (Working)
+* Privilege Escalation (to root): Working 
+* Nonce Setter: Working 
+* Remount: Working 
+* Codesign Bypass: Working 
+* SSH: Working
+* CoreTrust Bypass: Working
+* Code Injection: Working
+* Injection Library: libhooker
+* Bootstrap: Procursus included
